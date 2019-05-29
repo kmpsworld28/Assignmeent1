@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shapeCalculations", "shapeCalculations\shapeCalculations.csproj", "{E8ECDB4E-D035-46BE-BFF9-D54F5635EEC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shapeCalculation-Tests", "shapeCalculation-Tests\shapeCalculation-Tests.csproj", "{44E6DCB9-6F84-43D1-93F9-23EDD8F28766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E8ECDB4E-D035-46BE-BFF9-D54F5635EEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8ECDB4E-D035-46BE-BFF9-D54F5635EEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8ECDB4E-D035-46BE-BFF9-D54F5635EEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E6DCB9-6F84-43D1-93F9-23EDD8F28766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E6DCB9-6F84-43D1-93F9-23EDD8F28766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E6DCB9-6F84-43D1-93F9-23EDD8F28766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E6DCB9-6F84-43D1-93F9-23EDD8F28766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

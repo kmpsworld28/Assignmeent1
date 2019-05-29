@@ -11,7 +11,7 @@ namespace shapeCalculations
         static void Main(string[] args)
         {
             //initializing the Calculate class
-            Calculate c = new Calculate();
+            Rectangle c = new Rectangle();
             bool validInput = false;
             string calcSelection;
             int selection;
@@ -41,7 +41,7 @@ namespace shapeCalculations
 
                     Console.WriteLine($"Your inputs are {firstNumber} and {secondNumber}.\n");
                     //Setting values with the input params using paramterized constructor.
-                    Calculate customCalc = new Calculate(firstNumber, secondNumber);
+                    Rectangle customCalc = new Rectangle(firstNumber, secondNumber);
                     c = customCalc;
                 }
                 else if (calcSelection.Equals("N") || calcSelection.Equals("n"))

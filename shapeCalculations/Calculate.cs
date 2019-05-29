@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace shapeCalculations
 {
-    class Calculate
+    public class Rectangle
     {
         //Private variable declarations.
         private int length, width;
         //Default constructor with default length and width of rectangle
-        public Calculate()
+        public Rectangle()
         {
             length = 1;
             width = 1;
         }
         //Paramterized constructor to set values of length and width of the rectangle
-        public Calculate(int length, int width)
+        public Rectangle(int length, int width)
         {
             this.length = length;
             this.width = width;
